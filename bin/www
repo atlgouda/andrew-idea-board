@@ -4,7 +4,8 @@
  * Module dependencies.
  */
 
-var app = require('../app');
+ //CHANGED APP.JS to SERVER.JS AT PROJECT LEVEL
+var app = require('../server');
 var debug = require('debug')('idea-board:server');
 var http = require('http');
 

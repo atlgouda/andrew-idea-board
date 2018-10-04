@@ -37,7 +37,7 @@ app.get('/', (req, res) => {
 })
 
 const usersController = require('./routes/usersController')
-
+//CA go to postman and check that it is working
 app.use('/api/users', usersController)
 
 module.exports = app
