@@ -40,4 +40,9 @@ const usersController = require('./routes/usersController')
 //CA go to postman and check that it is working
 app.use('/api/users', usersController)
 
+//route from ideas controller
+const ideasController = require('./routes/ideasController')
+//CA go to postman and check that it is working
+app.use('/api/users/:userId/ideas', ideasController)
+
 module.exports = app
